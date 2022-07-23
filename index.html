@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <div class="header">
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it will automatically select all of the code for you to copy.</p>
+      </div>
+      <div class="container">
+        <div class="box" id="box-1">
+          <div class="inner-box"><h2>Flexbox Row</h2></div>
+          <p class="par">Use these three properties to create a Flexbox row layout.</p>
+          <div class="flex">
+            <div class="code" data-height="70%">
+              <p class="inner-code">
+                .row {<br />
+                <span class="indented"> display: flex;</span><br />
+                <span class="indented">flex-direction: row;</span><br />
+                <span class="indented">flex-wrap: wrap;</span><br />
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- box-2 -->
+        <div class="box" id="box-2">
+          <div class="inner-box"><h2>Flexbox Column</h2></div>
+          <p class="par">Use this to create a Flexbox column layout.</p>
+          <div class="code" data-height="70%">
+            <p class="inner-code">
+              .column {<br />
+              <span class="indented"> display: flex;</span><br />
+              <span class="indented">flex-direction: column;</span><br />
+              }
+            </p>
+          </div>
+        </div>
+        <!-- Box-3 -->
+        <div class="box" id="box-3">
+          <div class="inner-box">
+            <h2>CSS Grid Layout</h2>
+          </div>
+          <p class="par">Build a 12-column layout using CSS Grid.</p>
+          <div class="code" data-height="70%">
+            <p class="inner-code">
+              .grid {<br />
+              <span class="indented">display: grid;</span><br />
+              <span class="indented">width: 100%;</span><br />
+              <span class="indented">grid-template-columns: repeat(12, 1fr);</span
+              ><br />
+              }
+            </p>
+          </div>
+        </div>
+        <!-- Row-2 Box-1 -->
+        <div class="box-row-2" id="box-4">
+          <div class="inner-box"><h2>Linear Gradients</h2></div>
+          <p class="par">This will create a background linear gradient from top to bottom.</p>
+          <div class="code-row-2">
+            <p class="inner-code-row-2">
+              .linear-gradient-background {<br />
+              <span class="indented"> background-image: linear-gradient(<br>
+              <span class="indented">rgba(232, 102, 236, 0.3) 0%, </span><br />
+              <span class="indented">rgba(232, 102, 236, 0.3) 100%</span><br />
+              <span class="indented">) ;</span><br />
+              }
+            </p>
+          </div>
+        </div>
+        <!-- Row-2 Box-2 -->
+        <div class="box-row-2" id="box-5">
+          <div class="inner-box"><h2>Box Transition Glow</h2></div>
+          <p class="par">Use transitions and box shadows to glow on hover.</p>
+          <div class="code-row-2">
+            <p class="inner-code-row-2">
+              .code-card .card-header {<br />
+              <span class="indented"> border-radius: 8px;</span><br />
+              <span class="indented">transition: all 0.5s ease-in-out;</span><br />
+            } <br>
+              .code-card:hover,<br>
+              .card-card:hover .card-header {<br />
+              <span class="indented">box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);</span><br />
+              
+              }
+            </p>
+          </div>
+        </div>
+        <!-- Row-2 Box-3 -->
+        <div class="box-row-2" id="box-6">
+          <div class="inner-box"><h2>Overlay Card with Title</h2></div>
+          <p class="par">Use position propoerties and nagative amrgins to raise elements higher than their natural starting point.</p>
+          <div class="flex">
+            <div class="code-row-2">
+              <p class="inner-code-row-2">
+                .card-header {<br />
+                <span class="indented"> position: relative;</span><br />
+                <span class="indented">margin-top: -20px;</span><br />
+                
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer class="footer"><h2>Made with <span><img src="./icons8-heart-48.png" alt=""></span> and CSS</h2></footer>
+      </div>
+    </div>
+  </body>
+</html>
